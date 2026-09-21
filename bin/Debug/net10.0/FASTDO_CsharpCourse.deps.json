@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "FASTDO_CsharpCourse/1.0.0": {
+        "runtime": {
+          "FASTDO_CsharpCourse.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FASTDO_CsharpCourse/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IdeaProjects\\FASTDO_Csharp\\FASTDO_Csharp.csproj",
-      "projectName": "FASTDO_Csharp",
-      "projectPath": "D:\\IdeaProjects\\FASTDO_Csharp\\FASTDO_Csharp.csproj",
+      "projectUniqueName": "D:\\IdeaProjects\\FASTDO_CsharpCourse\\FASTDO_CsharpCourse.csproj",
+      "projectName": "FASTDO_CsharpCourse",
+      "projectPath": "D:\\IdeaProjects\\FASTDO_CsharpCourse\\FASTDO_CsharpCourse.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\IdeaProjects\\FASTDO_Csharp\\obj\\",
+      "outputPath": "D:\\IdeaProjects\\FASTDO_CsharpCourse\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
