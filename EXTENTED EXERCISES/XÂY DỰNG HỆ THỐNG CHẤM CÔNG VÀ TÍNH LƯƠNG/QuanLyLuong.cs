@@ -45,15 +45,15 @@ namespace HeThongChamCongTinhLuong
         public BangLuong TinhLuong(string maNhanVien, int thang, int nam)
         {
             if (!danhSachNhanVien.TryGetValue(maNhanVien, out NhanVien nhanVien))
-                throw new InvalidOperationException(
+                Console.WriteLine(
                     $"Không tìm thấy nhân viên {maNhanVien}.");
 
-            var khoa = (maNhanVien, thang, nam);
+            var khoa = (maNhanVien, thang, nam);            // Tạo khóa để tìm dữ liệu chấm công. Dòng này tạo một bộ giá trị gồm ba thành phần.Vì một nhân viên có thể có dữ liệu chấm công ở nhiều tháng khác nhau. Hệ thống cần xác định chính xác nhân viên nào, tháng nào và năm nào.
 
             if (!danhSachChamCong.TryGetValue(khoa, out ChamCong chamCong))
-                throw new InvalidOperationException(
+                Console.WriteLine(
                     $"Chưa có chấm công của {maNhanVien} " +
-                    $"trong tháng {thang:D2}/{nam}.");
+                    $"trong tháng {thang:D2}/{nam}.");      // D2 là định dạng số nguyên với tối thiểu hai chữ số.
 
             return nhanVien.TinhLuong(chamCong);
         }
@@ -90,7 +90,7 @@ namespace HeThongChamCongTinhLuong
         {
             Console.WriteLine();
             Console.WriteLine("BÁO CÁO CHI TIẾT LƯƠNG NHÂN VIÊN");
-            Console.WriteLine(new string('-', 115));
+            Console.WriteLine(new string('-', 140));
 
             Console.WriteLine(
                 $"{"Mã NV",-6} | {"Họ tên",-20} | {"Loại",-10} | " + 
@@ -98,7 +98,7 @@ namespace HeThongChamCongTinhLuong
                 $"{"Lương theo công",15} | {"Thưởng",12} | " +
                 $"{"Tổng thu nhập",15} | {"Kỳ lương"}");
 
-            Console.WriteLine(new string('-', 115));
+            Console.WriteLine(new string('-', 140));
 
             foreach (BangLuong luong in bangLuong)
             {
@@ -114,7 +114,7 @@ namespace HeThongChamCongTinhLuong
             decimal tongQuyLuong =
                 bangLuong.Sum(x => x.TongThuNhap);
 
-            Console.WriteLine(new string('-', 115));
+            Console.WriteLine(new string('-', 140));
 
             Console.WriteLine(
                 $"Tổng lương theo công: {tongLuongTheoCong:N0}đ");
