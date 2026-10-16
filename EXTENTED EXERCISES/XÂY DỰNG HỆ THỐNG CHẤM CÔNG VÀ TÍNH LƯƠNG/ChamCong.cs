@@ -1,7 +1,5 @@
 namespace HeThongChamCongTinhLuong 
 {
-    using System;
-
 public class ChamCong
 {
     public string MaNhanVien { get; private set; }

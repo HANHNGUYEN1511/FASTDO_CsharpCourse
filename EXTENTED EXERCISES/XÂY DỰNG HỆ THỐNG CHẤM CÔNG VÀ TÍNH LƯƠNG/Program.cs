@@ -20,7 +20,6 @@ NhanVien 1 ─────────── * ChamCong
          */
 
 
-using System;
 
 namespace HeThongChamCongTinhLuong
 {

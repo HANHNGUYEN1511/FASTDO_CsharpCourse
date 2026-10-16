@@ -1,7 +1,5 @@
 namespace HeThongChamCongTinhLuong
 {
-    using System;
-
     public class BangLuong
     {
         public NhanVien NhanVien { get; private set; }
