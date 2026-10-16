@@ -89,11 +89,12 @@ namespace HeThongChamCongTinhLuong
         public void HienThiBaoCao(List<BangLuong> bangLuong)
         {
             Console.WriteLine();
-            Console.WriteLine("BẢNG LƯƠNG THÁNG 09/2026");
+            Console.WriteLine("BÁO CÁO CHI TIẾT LƯƠNG NHÂN VIÊN");
             Console.WriteLine(new string('-', 115));
 
             Console.WriteLine(
-                $"{"Mã NV",-6} | {"Họ tên",-20} | {"Loại",-10} | " +
+                $"{"Mã NV",-6} | {"Họ tên",-20} | {"Loại",-10} | " + 
+                $"{"Công ca",10} | {"Công OT",10} | {"Công chuẩn",10} |" +
                 $"{"Lương theo công",15} | {"Thưởng",12} | " +
                 $"{"Tổng thu nhập",15} | {"Kỳ lương"}");
 

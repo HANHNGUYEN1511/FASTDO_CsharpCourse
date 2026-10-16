@@ -43,20 +43,30 @@ namespace HeThongChamCongTinhLuong
             quanLy.HienThiBaoCao(bangLuong);
 
             // 5. Tính lương riêng cho nhân viên NV01.
-            Console.WriteLine("CHI TIẾT LƯƠNG NHÂN VIÊN NV01 THÁNG 09/2026");
+            Console.WriteLine("CHI TIẾT LƯƠNG NHÂN VIÊN THÁNG 09/2026");
 
             BangLuong luongNV01 = quanLy.TinhLuong("NV01", 9, 2026);
-
+            BangLuong luongNV02 = quanLy.TinhLuong("NV02", 9, 2026);
+            BangLuong luongNV03 = quanLy.TinhLuong("NV03", 9, 2026);
+            BangLuong luongNV04 = quanLy.TinhLuong("NV04", 9, 2026);
+            BangLuong luongNV05 = quanLy.TinhLuong("NV05", 9, 2026);
+            BangLuong luongNV06 = quanLy.TinhLuong("NV06", 9, 2026);
+            BangLuong luongNV07 = quanLy.TinhLuong("NV07", 9, 2026);
+            BangLuong luongNV08 = quanLy.TinhLuong("NV08", 9, 2026);
+            BangLuong luongNV09 = quanLy.TinhLuong("NV09", 9, 2026);
+            BangLuong luongNV10 = quanLy.TinhLuong("NV10", 9, 2026);
             luongNV01.HienThi(false);
+            luongNV02.HienThi(false);
+            luongNV03.HienThi(false);
+            luongNV04.HienThi(false);
+            luongNV05.HienThi(false);
+            luongNV06.HienThi(false);
+            luongNV07.HienThi(false);
+            luongNV08.HienThi(false);
+            luongNV09.HienThi(false);
+            luongNV10.HienThi(false);
 
-            // 6. Thử thêm chấm công cho nhân viên NV01.
-           Console.WriteLine("KIỂM TRA CHẤM CÔNG CHO NHÂN VIÊN NV01 THÁNG 09/2026");
-
-            quanLy.ThemChamCong(new ChamCong("NV01", 9, 2026, 26m, 20m, 2m));
-
-            Console.WriteLine("Đã thêm chấm công cho NV01. Tính lại lương NV01 tháng 09/2026:");
-
-            // 7. Kết thúc chương trình.
+            // 6. Kết thúc chương trình.
            Console.WriteLine("Nhấn phím bất kỳ để kết thúc chương trình...");
            Console.ReadKey();
         }

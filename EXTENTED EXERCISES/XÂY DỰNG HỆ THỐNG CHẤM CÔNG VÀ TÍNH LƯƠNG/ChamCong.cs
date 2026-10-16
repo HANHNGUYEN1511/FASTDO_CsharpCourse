@@ -19,7 +19,7 @@ public class ChamCong
         decimal congCa,
         decimal congOT)
     {
-        if (string.IsNullOrWhiteSpace(maNhanVien))
+        if (maNhanVien == null || maNhanVien.Trim()=="")
             Console.WriteLine("Mã nhân viên không được để trống.");
 
         if (thang < 1 || thang > 12)
