@@ -15,7 +15,7 @@
 
 //             for (int j = 1; j <= i; j++)
 //             {
-//                 if (rowSum + j > 7)     // Nếu tổng của dòng vượt quá 7, dừng in tiếp số của dòng này
+//                 if (rowSum + j >= 7)     // Nếu tổng của dòng vượt quá 7, dừng in tiếp số của dòng này
 //                 {
 //                     break;
 //                 }
