@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FASTDO_CsharpCourse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1042d1d3e1ec35f889d8c23e2ae3bc205d1f514")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fac285125cf73366f0ba84569b0873c6adc569da")]
 [assembly: System.Reflection.AssemblyProductAttribute("FASTDO_CsharpCourse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FASTDO_CsharpCourse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

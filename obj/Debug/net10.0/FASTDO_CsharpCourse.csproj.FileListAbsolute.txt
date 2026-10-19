@@ -27,3 +27,13 @@ D:\IdeaProjects\FASTDO_CsharpCourse\obj\Debug\net10.0\refint\FASTDO_CsharpCourse
 D:\IdeaProjects\FASTDO_CsharpCourse\obj\Debug\net10.0\FASTDO_CsharpCourse.pdb
 D:\IdeaProjects\FASTDO_CsharpCourse\obj\Debug\net10.0\FASTDO_CsharpCourse.genruntimeconfig.cache
 D:\IdeaProjects\FASTDO_CsharpCourse\obj\Debug\net10.0\ref\FASTDO_CsharpCourse.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\bin\Debug\net10.0\ClosedXML.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\bin\Debug\net10.0\ClosedXML.Parser.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\bin\Debug\net10.0\ExcelNumberFormat.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\bin\Debug\net10.0\RBush.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\bin\Debug\net10.0\SixLabors.Fonts.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\bin\Debug\net10.0\System.IO.Packaging.dll
+D:\IdeaProjects\FASTDO_CsharpCourse\obj\Debug\net10.0\FASTDO_CsharpCourse.csproj.AssemblyReference.cache
+D:\IdeaProjects\FASTDO_CsharpCourse\obj\Debug\net10.0\FASTDO_C.6DC46CAC.Up2Date
